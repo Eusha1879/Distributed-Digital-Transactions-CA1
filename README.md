@@ -2,6 +2,12 @@
 CA1 project for Distributed Digital Transactions, focused on designing and implementing a blockchain-based solution using Solidity, Remix IDE, Ganache, Python, and supporting scripts.
 flowchart LR
 
+
+## Food Traceability Blockchain Architecture
+
+```mermaid
+flowchart LR
+
 A[Farmer] --> B[DApp / User Interface]
 B --> C[Solidity Smart Contract]
 C --> D[Ethereum / Ganache Blockchain]
